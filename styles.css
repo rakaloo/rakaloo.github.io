@@ -1,0 +1,19 @@
+body {
+	background: #fcf3cf;
+	font-family: "Georgia", serif;
+
+}
+
+#mainimg{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: auto;
+}
+
+header{
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: black;
+} 
