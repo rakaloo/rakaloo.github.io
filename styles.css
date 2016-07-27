@@ -1,7 +1,14 @@
 body {
-	background: #f8f9f9;
+	background: #1c77c3;
 	font-family: "Georgia", serif;
 
+}
+
+header{
+	background-color: #22aed1;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #1c77c3;
 }
 
 #mainimg{
@@ -12,16 +19,11 @@ body {
     height: auto;
 }
 
-header{
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	border-bottom-color: black;
-} 
-
 ul.toolbar {
+	font-family: "Helvetica", sans-serif;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 10px 0px;
 	position: fixed;
 	height: 100%;
 	width: 10%;
@@ -31,12 +33,25 @@ ul.toolbar {
 li a {
 	display: block;
 	color: black;
-	padding: 8px;
+	padding: 8px 10px;
 	text-decoration: none;
+
 }
 
+li a:hover {
+	background-color: #1c77c3;
+	color:white;
+}
 
 .maincontent {
+	background: #fffaff;
 	margin-left: 10%;
 	padding: 10px;
+	margin-right:8px;
+	position:fixed;
+	height: 100%;
+}
+
+h1, h2 {
+	font-family: "Helvetica", sans-serif;
 }
