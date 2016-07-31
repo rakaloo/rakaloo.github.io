@@ -37,22 +37,21 @@ ul.toolbar {
 	background-color: #f2f3f4;
 }
 
-ul.class {
-	list-style-type: square;
-	padding-right: 8px;
-}
-
 li a {
 	display: block;
 	color: black;
 	padding: 8px 12px;
 	text-decoration: none;
-
 }
 
 li a:hover {
 	background-color: #1c77c3;
 	color:white;
+}
+
+p a:visited{
+	color: grey;
+	text-decoration: none;
 }
 
 main {
@@ -69,9 +68,39 @@ main {
 	border-style: solid;
 	border-width: 2px;
 	border-color: grey;
-	margin-left: 5px;	
+	margin-left: 20px;
+	margin-bottom: 20px;	
+	max-width: 40%;
 }
 
 h1, h2 {
 	font-family: "Helvetica", sans-serif;
+	margin: 10px 0px;
 }
+
+p{
+	margin-top: 8px;
+}
+
+section ul {
+	list-style-image: url("images/burger.png");
+	list-style-position: inside;
+	padding-left:5px;
+}
+
+table {
+	margin:15px;
+	background-image: url("images/storefront.jpg");
+	background-size: auto 100%;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+    padding: 12px 5px;
+    text-align: center;
+}
+
+td:nth-child(1) {  
+  text-align: left;
+}
+
