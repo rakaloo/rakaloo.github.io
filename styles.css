@@ -82,7 +82,7 @@ p{
 	margin-top: 8px;
 }
 
-section ul {
+.quotes ul {
 	list-style-image: url("images/burger.png");
 	list-style-position: inside;
 	padding-left:5px;
@@ -104,3 +104,17 @@ td:nth-child(1) {
   text-align: left;
 }
 
+@media screen and (max-width: 800px){
+	body{
+		font-size: 80%;
+	}
+	.characterimg {
+		max-width: 20%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	body{
+		font-size: 60%;
+	}
+}
