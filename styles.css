@@ -22,7 +22,7 @@ header{
     margin-right: auto;
     width: 45%;
     height: auto;
-    max-width: 450px;
+    max-width: 400px;
 }
 
 
@@ -60,7 +60,7 @@ main {
 	height:100%;
 	margin-left: 70px;
 	padding: 10px;
-	overflow: scroll
+	overflow: scroll;
 }
 
 .characterimg{
